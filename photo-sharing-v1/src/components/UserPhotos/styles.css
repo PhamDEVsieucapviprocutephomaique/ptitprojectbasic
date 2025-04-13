@@ -1,0 +1,95 @@
+.user-photos-container {
+    max-width: 900px; /* Chiều rộng tối đa */
+    margin: 0 auto; /* Căn giữa */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    overflow-y: auto;
+    height: 90vh; /* Giới hạn chiều cao */
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .photo-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .user-photo {
+    width: 100%;
+    max-width: 500px; /* Đảm bảo ảnh không quá rộng */
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .user-photo:hover {
+    transform: scale(1.05); /* Hiệu ứng phóng to khi hover */
+  }
+  
+  .photo-date {
+    font-size: 0.95rem;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .comment-section {
+    margin-top: 20px;
+    background-color: #fafafa;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .comment-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .comment {
+    margin-top: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comment-meta {
+    font-size: 0.85rem;
+    color: #777;
+  }
+  
+  .comment-user-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .comment-user-link:hover {
+    color: #0056b3; /* Màu khi hover */
+  }
+  
+  .comment-text {
+    font-size: 0.95rem;
+    color: #444;
+    margin-top: 5px;
+  }
+  
+  .no-comment {
+    font-size: 1rem;
+    color: #888;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  

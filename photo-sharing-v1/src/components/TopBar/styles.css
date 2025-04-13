@@ -1,0 +1,13 @@
+.topbar-appBar {
+  height: 60;
+  justify-content: "center";
+}
+
+.anfo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.right-item{
+  margin-right: 100px !important;
+}
